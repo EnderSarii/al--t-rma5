@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,600&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,600&family=Rubik+Glitch&family=Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(hotel6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 150px;
+    font-family: 'Sofia', sans-serif;
+    color: #f2f2f2;
+}
+.header ul{
+    margin: 10px 25px;
+    margin-right: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.header ul li{
+    margin: 0 15px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    color: black;
+}
+.body h4{
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    margin: 25px;
+    font-size: 30px;
+}
+.body h2{
+    font-family:'Sofia', sans-serif;
+    font-size: 55px;
+    margin: 25px;
+}
+.body button{
+    border: none;
+    background-color: #e8630a;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8630a;
+    padding: 15px;
+    max-width: 50%;
+    margin: 0 400px;
+    border-radius: 6px;
+}
