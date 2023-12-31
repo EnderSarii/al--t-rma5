@@ -6,8 +6,9 @@
 }
 .container{
     background-image: url(hotel6.jpg);
+    height: 100vh - 100px;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
 }
 .header{
@@ -56,6 +57,11 @@
     padding: 10px;
     border-radius: 16px;
     font-size: 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .footer{
     display: flex;
